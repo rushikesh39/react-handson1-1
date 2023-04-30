@@ -1,0 +1,38 @@
+.item{
+    /* background-color: aqua; */
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 40px;
+    height: 230px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+.item1{
+    background-color: aqua;
+   
+}
+.item2{
+    background-color:rgb(177, 89, 197);
+    /* background-color: blueviolet; */
+}
+.para{
+    color:blue;
+}
+@media screen and (max-width: 1000px) {
+    .item{
+        width: 70%;
+        
+    }
+  }
+@media screen and (max-width: 600px) {
+    .item{
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+        height: 200px;
+    }
+  }
+ 
+  
